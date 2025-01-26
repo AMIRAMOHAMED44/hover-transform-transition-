@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(135, 227, 236),rgb(87, 8, 161) );
+}
+nav{
+    width: 60%;
+    margin: 10px auto;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li i{
+    color: white;
+    font-size: 50px;
+    padding: 20px; 
+    transition: color 2s ; 
+}
+ul li i:hover{
+    background-color: rgb(206, 172, 238);
+    color: black;
+}
+.font{
+
+    padding: 50px;
+    font-size: 40px;
+}
+.custom{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.import{
+    font-family: "Pacifico", serif;
+
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+.gallery img{
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    transition: 2s;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+#contact{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    /* background-color:transparent ; */
+    color: white;
+    border-radius: 50px;
+    width: 270px;
+    transition: all 3s;
+}
+#contact img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#contact p{
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+
+}
+#closee{
+    color: rgb(108, 106, 106);
+    font-weight: bold;
+    font-size:30px;
+    display: none;
+
+
+}
+
+
